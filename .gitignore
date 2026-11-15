@@ -1,0 +1,15 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local caches and private working output
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.DS_Store
